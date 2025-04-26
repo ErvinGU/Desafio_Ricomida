@@ -40,23 +40,160 @@
 
 
         <!--Card 1-->
-        <div class="container text-center">
+        <div class="container text-left">
           <div class="row">
             <div class="col">
-              <img src="assets/img/principal.jpg" height="482" width="384">
+              <img src="assets/img/principal.jpg" height="384" width="482">
             </div>
             <div class="col padding-bottom-4">
              
-              <h2>PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES</h2>
+              <h2 id="h2">PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES</h2>
               <hr>
-              <p>110 MIN / 6 A 8 PORCIONES</p>
+              <p class="fw-bold">110 MIN / 6 A 8 PORCIONES</p>
             <section>
-              <button type="button" class="btn btn-light">Light</button>
-              <button type="button" class="btn btn-light">Light</button>
+              <button type="button" class="btn active" data-bs-toggle="button" aria-pressed="true">Enviar por correo</button>
+              <button type="button" class="btn active" data-bs-toggle="button" aria-pressed="true">Añadir a favoritos</button>
             </section>
             </div>
           </div>
         </div>
+
+        <!--Carrousel-->
+        <section class="d-none d-md-block">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button class="btn btn-primary" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              </div>
+  
+              <div class="carousel-inner px-5 py-5">
+                  <div class="carousel-item active">
+                      <div class="row">
+                          <div class="col-3">
+                              <img class="img-fluid" src="assets/img/slider-1.png" alt="" />
+                          </div>
+                          <div class="col-3">
+                              <img class="img-fluid" src="assets/img/slider-2.png" alt="" />
+                          </div>
+                          <div class="col-3">
+                              <img class="img-fluid" src="assets/img/slider-3.png" alt="" />
+                          </div>
+                          <div class="col-3">
+                              <img class="img-fluid" src="assets/img/slider-4.png" alt="" />
+                          </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item ">
+                      <div class="row">
+                          <div class="col-3">
+                              <img class="img-fluid" src="assets/img/slider-5.png" alt="" />
+                          </div>
+                          <div class="col-3">
+                              <img class="img-fluid" src="assets/img/slider-6.png" alt="" />
+                          </div>
+                          <div class="col-3">
+                              <img class="img-fluid" src="assets/img/slider-7.png" alt="" />
+                          </div>
+                          <div class="col-3">
+                              <img class="img-fluid" src="assets/img/slider-8.png" alt="" />
+                          </div>
+                      </div>
+                  </div>
+              </div>
+  
+              <button class="carousel-control-prev p-3" type="button" data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+              </button>
+          </div>
+          <hr class="hr">
+      </section>
+
+      <section class="container">
+        <div class="row px-5 mx-md-5">
+            <div class="col-12 col-md-6 my-5">
+                <h5 class="time-text fw-bold text-decoration-underline">INGREDIENTES</h5>
+                <h6 class="text-start my-3 fs-4">Masa</h6>
+                <ul class="list-group list-receta lh-lg mt-5">
+                    <li class="p-0 list-group-item border border-0 fs-5">20 gr de levadura seca instantánea</li>
+                    <li class="p-0 list-group-item border border-0 fs-5">1 cucharadita de azúcar</li>
+                    <li class="p-0 list-group-item border border-0 fs-5">500 ml agua tibia</li>
+                    <li class="p-0 list-group-item border border-0 fs-5">100 ml aceite vegetal</li>
+                    <li class="p-0 list-group-item border border-0 fs-5">4 cucharadas de aceite de oliva</li>
+                    <li class="p-0 list-group-item border border-0 fs-5">65 gr harina de maíz fina (chuchoca)</li>
+                    <li class="p-0 list-group-item border border-0 fs-5">2 cucharaditas de sal</li>
+                    <li class="p-0 list-group-item border border-0 fs-5">625 gr harina Salsa</li>
+                </ul>
+                <h6 class="text-start my-3 fs-4">Salsa</h6>
+                <ul class="list-group list-receta lh-lg mt-5">
+                    <li class="p-0 list-group-item border border-0 fs-5">5 cucharadas de aceite de oliva</li>
+                    <li class="p-0 list-group-item border border-0 fs-5">½ cebolla picada en cubos finos</li>
+                    <li class="p-0 list-group-item border border-0 fs-5">2 cucharaditas de sal</li>
+                    <li class="p-0 list-group-item border border-0 fs-5">3 cucharadas de Orégano Gourmet</li>
+                    <li class="p-0 list-group-item border border-0 fs-5">1 ½ cucharadas de Albahaca Gourmet</li>
+                    <li class="p-0 list-group-item border border-0 fs-5">2 tarro de tomates en cubos al natural</li>
+                    <li class="p-0 list-group-item border border-0 fs-5">2 cucharaditas de azúcar</li>
+                </ul>
+                <h6 class="text-start my-3 fs-4">Relleno</h6>
+                <ul>
+                    <li class="p-0 list-group-item border border-0 fs-5">½ cebolla</li>
+                    <li class="p-0 list-group-item border border-0 fs-5">½ cebolla, en cubos</li>
+                    <li class="p-0 list-group-item border border-0 fs-5">500 gr hojas de espinacas picadas</li>
+                    <li class="p-0 list-group-item border border-0 fs-5">400 gr de champiñones</li>
+                    <li class="p-0 list-group-item border border-0 fs-5">laminados 300 gr de queso mozarella</li>
+                    <li class="p-0 list-group-item border border-0 fs-5">4 cucharadas queso parmesano</li>
+                </ul>
+            </div>
+
+            <div class="col-12 col-md-6 my-5 ">
+                <h5 class="time-text fw-bold text-decoration-underline">PREPARACION</h5>
+                <ol class="list-group list-receta list-group-numbered lh-lg mt-5">
+                    <li class="p-0 list-group-item border border-0 fs-5">Para la masa, disolver la levadura y el azúcar
+                        en
+                        agua tibia en un bol grande. Dejar reposar 2 minutos. Agregar el aceite, la harina de maíz, sal
+                        y 400gr de harina. Mezclar bien. Amasar y agregar el resto de harina, la cantidad necesaria para
+                        tener una masa blanda. Poner en el mesón y amasar por 5 minutos o hasta tener una masa lisa y
+                        elástica (agregar harina en el mesón a medida que se va amasando para que la masa no se pegue) .
+                        Poner la masa en un bol aceitado, tapar con un paño de cocina limpio y dejar reposar hasta que
+                        la masa duplique su volumen (leudar). Golpear la masa para que baje y luego dejar leudar por 40
+                        minutos adicionales.</li><br>
+                    <li class="p-0 list-group-item border border-0 fs-5">Mientras tanto preparar la salsa: Calentar 4
+                        cucharadas de aceite en una olla a fuego medio. Agregar la cebolla, Orégano Gourmet, Albahaca
+                        Gourmet, sal y cocinar hasta que la cebolla esté dorada. Agregar el ajo y cocinar por 30
+                        segundos. Agregar los tomates junto al jugo del tarro, a la mezcla de cebolla. Agregar el azúcar
+                        y cocinar hasta que la mezcla se haya reducido y espesado, como 30 minutos. Sazonar con sal y
+                        pimienta a gusto. Reservar.</li><br>
+                    <li class="p-0 list-group-item border border-0 fs-5">Relleno: Cocinar las chalotas en el aceite de
+                        oliva
+                        hasta que estén transparentes. Agregar los champiñones y las espinacas, cocinar hasta que estén
+                        cocidos y se haya evaporado todo el líquido que hayan votado los vegetales. Reservar.
+                    </li><br>
+                    <li class="p-0 list-group-item border border-0 fs-5">Calentar el horno a 220C.</li><br>
+                    <li class="p-0 list-group-item border border-0 fs-5">Una vez que la masa haya reposado, dividirla en
+                        dos
+                        bolas. Estirar cada masa para cubrir dos moldes
+                        (desmontables) de 26 cm, hacer un borde de 5 cm con la masa. Dividir el relleno entre las dos
+                        pizza,
+                        tapar con el queso mozarella, luego terminar con la salsa de tomates y finalmente espolvorear el
+                        queso
+                        rallado.</li><br>
+                    <li class="p-0 list-group-item border border-0 fs-5">Hornear por 35 a 40 minutos o hasta que el
+                        relleno
+                        esté caliente y la base esté esponjosa y dorada.
+                        Esperar unos minutos antes de desmoldar.</li>
+                </ol>
+            </div>
+            <hr class="border border-dark border-1 mt-4">
+        </div>
+    </section>
+  
+
 
  
 </body>

@@ -53,8 +53,8 @@
               <hr>
               <p class="fw-bold">110 MIN / 6 A 8 PORCIONES</p>
             <section>
-              <button id="correo" type="button" class="btn active" data-toggle="tooltip" aria-pressed="true">Enviar por correo</button>
-              <button type="button" class="btn active" data-bs-toggle="button" aria-pressed="true">Añadir a favoritos</button>
+              <button id="correo" type="button" class="btn active" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="Presiona para enviar a tu correo">Enviar por correo</button>
+              <button type="button" class="btn active" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="Agrega esta receta a tus favoritos">Añadir a favoritos</button>
             </section>
             </div>
           </div>
@@ -120,7 +120,7 @@
       <section class="container">
         <div class="row px-5 mx-md-5">
             <div class="col-12 col-md-6 my-5">
-                <h5 class="time-text fw-bold text-decoration-underline">INGREDIENTES</h5>
+                <h5 id="ingredientes" class="time-text fw-bold text-decoration-underline">INGREDIENTES</h5>
                 <h6 class="text-start my-3 fs-4">Masa</h6>
                 <ul class="list-group list-receta lh-lg mt-5">
                     <li class="p-0 list-group-item border border-0 fs-5">20 gr de levadura seca instantánea</li>
@@ -144,51 +144,24 @@
                 </ul>
                 <h6 class="text-start my-3 fs-4">Relleno</h6>
                 <ul>
-                    <li class="p-0 list-group-item border border-0 fs-5">½ cebolla</li>
-                    <li class="p-0 list-group-item border border-0 fs-5">½ cebolla, en cubos</li>
-                    <li class="p-0 list-group-item border border-0 fs-5">500 gr hojas de espinacas picadas</li>
-                    <li class="p-0 list-group-item border border-0 fs-5">400 gr de champiñones</li>
-                    <li class="p-0 list-group-item border border-0 fs-5">laminados 300 gr de queso mozarella</li>
-                    <li class="p-0 list-group-item border border-0 fs-5">4 cucharadas queso parmesano</li>
+                  <li class="p-0 list-group-item border border-0 fs-5">½ cebolla</li>
+                  <li class="p-0 list-group-item border border-0 fs-5">½ cebolla, en cubos</li>
+                  <li class="p-0 list-group-item border border-0 fs-5">500 gr hojas de espinacas picadas</li>
+                  <li class="p-0 list-group-item border border-0 fs-5">400 gr de champiñones</li>
+                  <li class="p-0 list-group-item border border-0 fs-5">laminados 300 gr de queso mozarella</li>
+                  <li class="p-0 list-group-item border border-0 fs-5">4 cucharadas queso parmesano</li>
                 </ul>
             </div>
 
             <div class="col-12 col-md-6 my-5 ">
-                <h5 class="time-text fw-bold text-decoration-underline">PREPARACION</h5>
+                <h5 id="preparacion" class="time-text fw-bold text-decoration-underline">PREPARACION</h5>
                 <ol class="list-group list-receta list-group-numbered lh-lg mt-5">
-                    <li class="p-0 list-group-item border border-0 fs-5">Para la masa, disolver la levadura y el azúcar
-                        en
-                        agua tibia en un bol grande. Dejar reposar 2 minutos. Agregar el aceite, la harina de maíz, sal
-                        y 400gr de harina. Mezclar bien. Amasar y agregar el resto de harina, la cantidad necesaria para
-                        tener una masa blanda. Poner en el mesón y amasar por 5 minutos o hasta tener una masa lisa y
-                        elástica (agregar harina en el mesón a medida que se va amasando para que la masa no se pegue) .
-                        Poner la masa en un bol aceitado, tapar con un paño de cocina limpio y dejar reposar hasta que
-                        la masa duplique su volumen (leudar). Golpear la masa para que baje y luego dejar leudar por 40
-                        minutos adicionales.</li><br>
-                    <li class="p-0 list-group-item border border-0 fs-5">Mientras tanto preparar la salsa: Calentar 4
-                        cucharadas de aceite en una olla a fuego medio. Agregar la cebolla, Orégano Gourmet, Albahaca
-                        Gourmet, sal y cocinar hasta que la cebolla esté dorada. Agregar el ajo y cocinar por 30
-                        segundos. Agregar los tomates junto al jugo del tarro, a la mezcla de cebolla. Agregar el azúcar
-                        y cocinar hasta que la mezcla se haya reducido y espesado, como 30 minutos. Sazonar con sal y
-                        pimienta a gusto. Reservar.</li><br>
-                    <li class="p-0 list-group-item border border-0 fs-5">Relleno: Cocinar las chalotas en el aceite de
-                        oliva
-                        hasta que estén transparentes. Agregar los champiñones y las espinacas, cocinar hasta que estén
-                        cocidos y se haya evaporado todo el líquido que hayan votado los vegetales. Reservar.
-                    </li><br>
+                    <li class="p-0 list-group-item border border-0 fs-5">Para la masa, disolver la levadura y el azúcar en agua tibia en un bol grande. Dejar reposar 2 minutos. Agregar el aceite, la harina de maíz, sal y 400gr de harina. Mezclar bien. Amasar y agregar el resto de harina, la cantidad necesaria para tener una masa blanda. Poner en el mesón y amasar por 5 minutos o hasta tener una masa lisa y elástica (agregar harina en el mesón a medida que se va amasando para que la masa no se pegue) . Poner la masa en un bol aceitado, tapar con un paño de cocina limpio y dejar reposar hasta que la masa duplique su volumen (leudar). Golpear la masa para que baje y luego dejar leudar por 40 minutos adicionales. </li><br>
+                    <li class="p-0 list-group-item border border-0 fs-5">Mientras tanto preparar la salsa: Calentar 4 cucharadas de aceite en una olla a fuego medio. Agregar la cebolla, Orégano Gourmet, Albahaca Gourmet, sal y cocinar hasta que la cebolla esté dorada. Agregar el ajo y cocinar por 30 segundos. Agregar los tomates junto al jugo del tarro, a la mezcla de cebolla. Agregar el azúcar y cocinar hasta que la mezcla se haya reducido y espesado, como 30 minutos. Sazonar con sal y pimienta a gusto. Reservar. </li><br>
+                    <li class="p-0 list-group-item border border-0 fs-5">Relleno: Cocinar las chalotas en el aceite de oliva hasta que estén transparentes. Agregar los champiñones y las espinacas, cocinar hasta que estén cocidos y se haya evaporado todo el líquido que hayan votado los vegetales. Reservar.</li><br>
                     <li class="p-0 list-group-item border border-0 fs-5">Calentar el horno a 220C.</li><br>
-                    <li class="p-0 list-group-item border border-0 fs-5">Una vez que la masa haya reposado, dividirla en
-                        dos
-                        bolas. Estirar cada masa para cubrir dos moldes
-                        (desmontables) de 26 cm, hacer un borde de 5 cm con la masa. Dividir el relleno entre las dos
-                        pizza,
-                        tapar con el queso mozarella, luego terminar con la salsa de tomates y finalmente espolvorear el
-                        queso
-                        rallado.</li><br>
-                    <li class="p-0 list-group-item border border-0 fs-5">Hornear por 35 a 40 minutos o hasta que el
-                        relleno
-                        esté caliente y la base esté esponjosa y dorada.
-                        Esperar unos minutos antes de desmoldar.</li>
+                    <li class="p-0 list-group-item border border-0 fs-5">Una vez que la masa haya reposado, dividirla en dos bolas. Estirar cada masa para cubrir dos moldes (desmontables) de 26 cm, hacer un borde de 5 cm con la masa. Dividir el relleno entre las dos pizza, tapar con el queso mozarella, luego terminar con la salsa de tomates y finalmente espolvorear el queso rallado.</li><br>
+                    <li class="p-0 list-group-item border border-0 fs-5">Hornear por 35 a 40 minutos o hasta que el relleno esté caliente y la base esté esponjosa y dorada. Esperar unos minutos antes de desmoldar.</li>
                 </ol>
             </div>
             <hr class="border border-dark border-1 mt-4">
@@ -202,27 +175,27 @@
           <div class="col">
               <div class="card">
                   <img src="./assets/img/recipe-card-1.png" class="card-img-top" alt="...">
+                  <h5 id="card-title" class="card-title fw-bold">PANQUEQUES CON MANJAR Y CREMA</h5>
                   <div class="card-body">
-                      <h5 class="card-title fw-bold">PANQUEQUES CON MANJAR Y CREMA</h5>
-                      <p class="lista-receta my-2">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.</p>
+                    <p class="lista-receta my-2">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.</p>
                   </div>
               </div>
           </div>
           <div class="col">
               <div class="card">
                   <img src="./assets/img/recipe-card-2.png" class="card-img-top" alt="...">
+                  <h5 id="card-title1" class="card-title fw-bold">TIRAMISÚ</h5>
                   <div class="card-body">
-                      <h5 class="card-title fw-bold">TIRAMISÚ</h5>
-                      <p class="lista-receta my-3">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
+                    <p class="lista-receta my-3">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
                   </div>
               </div>
           </div>
           <div class="col">
               <div class="card">
                   <img src="./assets/img/recipe-card-3.png" class="card-img-top" alt="...">
+                  <h5 id="card-title2" class="card-title fw-bold">PLATEADA</h5>
                   <div class="card-body">
-                      <h5 class="card-title fw-bold">PLATEADA</h5>
-                      <p class="lista-receta my-3">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac eleifend risus, urna auctor inceptos mattis dapibus.</p>
+                    <p class="lista-receta my-3">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac eleifend risus, urna auctor inceptos mattis dapibus.</p>
                   </div>
               </div>
           </div>

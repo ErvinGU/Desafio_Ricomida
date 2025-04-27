@@ -46,4 +46,37 @@
     background-color: #000000;
 }
 
+.card-body1 {
+    background-color: #DC3545;
+    font-family: cabin;
+    font-size: 30px;
+    padding-top: 50px;
+}
 
+.card-title0 {
+    font-size: 40px;
+    color: #ffff;
+}
+
+.card-title1 {
+    font-size: 30px;
+    color: #ffff;
+   
+
+}
+
+.card-title2 {
+    font-size: 30px;
+    font-family: lobster;
+    color: #ffff;
+    
+}
+
+.footer {
+    font-family: lobster;
+    font-size: 37px;
+}
+
+.d-grid {
+    padding-bottom: 100px;
+}

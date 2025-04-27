@@ -13,6 +13,8 @@
   <link href="assets/css/estilos.css" rel="stylesheet">
 </head>
 <body>
+
+  <!--Navbar-->
         <nav class="navbar navbar-expand-lg" style="background-color: #373A3C;">
             <div class="container-fluid">
               <a id="a" class="navbar-brand text-white" href="#">Ricomida</a>
@@ -51,7 +53,7 @@
               <hr>
               <p class="fw-bold">110 MIN / 6 A 8 PORCIONES</p>
             <section>
-              <button type="button" class="btn active" data-bs-toggle="button" aria-pressed="true">Enviar por correo</button>
+              <button id="correo" type="button" class="btn active" data-bs-toggle="button" aria-pressed="true">Enviar por correo</button>
               <button type="button" class="btn active" data-bs-toggle="button" aria-pressed="true">Añadir a favoritos</button>
             </section>
             </div>
@@ -59,7 +61,7 @@
         </div>
 
         <!--Carrousel-->
-        <section class="d-none d-md-block">
+        <section class="d-none d-sm-block">
           <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -113,7 +115,7 @@
               </button>
           </div>
           <hr class="hr">
-      </section>
+        </section>
 
       <section class="container">
         <div class="row px-5 mx-md-5">
@@ -192,6 +194,61 @@
             <hr class="border border-dark border-1 mt-4">
         </div>
     </section>
+
+    <!--Cards2-->
+    <section class="container">
+      <h1 class="text-center fw-bold px-5 my-4">RECETAS RELACIONADAS</h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4 px-5 my-5">
+          <div class="col">
+              <div class="card">
+                  <img src="./assets/img/recipe-card-1.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title fw-bold">PANQUEQUES CON MANJAR Y CREMA</h5>
+                      <p class="lista-receta my-2">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+              <div class="card">
+                  <img src="./assets/img/recipe-card-2.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title fw-bold">TIRAMISÚ</h5>
+                      <p class="lista-receta my-3">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+              <div class="card">
+                  <img src="./assets/img/recipe-card-3.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title fw-bold">PLATEADA</h5>
+                      <p class="lista-receta my-3">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac eleifend risus, urna auctor inceptos mattis dapibus.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!--Suscripción-->
+  <section class="section">
+    <div class="card text-center ">
+      <div class="card-body1">
+        <h5 class="card-title0">SUSCRÍBETE EN NUESTRO NEWSLETTER</h5>
+
+        <p class="card-title1">y obtén las mejores recetas que tenemos en</p> <p class="card-title2" >Ricomida</p>
+      <div class="d-grid gap-2 col-6 mx-auto">
+        <button type="button" class="btn active" data-bs-toggle="button" aria-pressed="true">Empezar</button>
+      </div>  
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer text-center text-white pt-4" style="background-color: #373A3C;">
+    <p>Ricomida</p>
+
+  </footer>
+
+
   
 
 
